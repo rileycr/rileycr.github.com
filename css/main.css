@@ -68,17 +68,17 @@ hr { width: 30%; border: none; border-top: 1px solid #b1cef4; margin: 2rem auto;
 .smallcap { text-transform: lowercase; font-variant: small-caps; }
 .smallcap::first-letter { text-transform: uppercase; }
 
-.post-list > li { margin-bottom: 0.5rem; }
+.post-list > li { margin-bottom: 1.5rem; }
 @media screen and (max-width: 600px) { .post-list > li span { display: block; font-size: 0.875rem; } }
 
 /** Posts */
 .post-header { margin-bottom: 2rem; }
 
-.post-title { font-size: 2rem; letter-spacing: -1px; line-height: 1; }
+.post-title { font-size: 1.5rem; letter-spacing: -1px; line-height: 1; }
 
 .post-meta { font-size: 0.875rem; color: #828282; }
 
-.post-content { margin-bottom: 2rem; }
+.post-content { margin-bottom: 0.5rem; }
 .post-content h1, .post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content h6 { margin-top: 2rem; }
 .post-content h1, .post-content h2 { font-size: 2rem; }
 .post-content h3 { font-size: 1.5rem; }
