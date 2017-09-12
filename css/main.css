@@ -6,7 +6,7 @@ body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { m
 body { font: 400 16px/1.5 "Cutive Mono", "Courier New", "Helvetica Neue", Helvetica, FangSong, STFangsong, sans-serif; color: #111; background-color: #fff; }
 
 /** Set `margin-bottom` to maintain vertical rhythm */
-h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, table { margin-bottom: 1rem; }
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, table { margin-bottom: 0.5rem; }
 
 /** Images */
 img { max-width: 100%; vertical-align: middle; }
@@ -74,7 +74,7 @@ hr { width: 30%; border: none; border-top: 1px solid #b1cef4; margin: 2rem auto;
 /** Posts */
 .post-header { margin-bottom: 2rem; }
 
-.post-title { font-size: 1.5rem; letter-spacing: -1px; line-height: 1; }
+.post-title { font-size: 1.5rem; letter-spacing: -1px; line-height: 0; }
 
 .post-meta { font-size: 0.875rem; color: #828282; }
 
