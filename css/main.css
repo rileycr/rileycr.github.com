@@ -50,7 +50,7 @@ th { text-align: left; vertical-align: bottom; border-bottom: 2px solid #e8e8e8;
 td { vertical-align: top; border-bottom: 1px solid #e8e8e8; }
 
 /** Horizontal rule */
-hr { width: 30%; border: none; border-top: 1px solid #b1cef4; margin: 2rem auto; }
+hr { width: 50%; border: none; border-top: 2px solid #b1cef4; margin: 2rem auto; }
 
 /** Clearfix */
 /** Site header */
