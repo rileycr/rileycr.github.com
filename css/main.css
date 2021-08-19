@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Cutive+Mono);
 /** Reset some basic elements */
-body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { margin: 0; padding: 0; }
+body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { margin: 0; padding: 0;}
 
 /** Basic styling */
 body { font: 400 16px/1.5 "Cutive Mono", "Courier New", "Helvetica Neue", Helvetica, FangSong, STFangsong, sans-serif; color: #111; background-color: #fff; }
@@ -13,13 +13,13 @@ img { max-width: 100%; vertical-align: middle; }
 
 /** Gallery */
 div.gallery {
-  margin: 15px;
   border: 2px solid #ccc;
-  float: left;
-  width: 750px;
-  margin-bottom: 1.5rem;
+  width: 75%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   margin-left: auto;
-  margin-right: auto;
+  margin-right:auto;
+  font-size: 1.125rem;
 }
 
 div.gallery:hover {
