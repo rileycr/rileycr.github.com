@@ -14,12 +14,11 @@ img { max-width: 100%; vertical-align: middle; }
 /** Gallery */
 div.gallery {
   border: 2px solid #ccc;
-  width: 75%;
+  width: 45%;
   margin-top: 2rem;
   margin-bottom: 2rem;
   margin-left: auto;
   margin-right:auto;
-  font-size: 1.125rem;
 }
 
 div.gallery:hover {
@@ -28,7 +27,6 @@ div.gallery:hover {
 
 div.gallery img {
   width: 100%;
-  height: auto;
 }
 
 div.desc {
