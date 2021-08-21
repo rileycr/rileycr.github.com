@@ -3,7 +3,7 @@
 body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { margin: 0; padding: 0;}
 
 /** Basic styling */
-body { font: 400 16px/1.5 "Cutive Mono", "Courier New", "Helvetica Neue", Helvetica, FangSong, STFangsong, sans-serif; color: #111; background-color: #fff; }
+body { font: 400 20px/1.5 "Cutive Mono", "Courier New", "Helvetica Neue", Helvetica, FangSong, STFangsong, sans-serif; color: #111; background-color: #fff; }
 
 /** Set `margin-bottom` to maintain vertical rhythm */
 h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, table { margin-bottom: 0.5rem; }
@@ -14,7 +14,7 @@ img { max-width: 100%; vertical-align: middle; }
 /** Gallery */
 div.gallery {
   border: 2px solid #ccc;
-  width: 75%;
+  width: 70%;
   margin-top: 2rem;
   margin-bottom: 2rem;
   margin-left: auto;
@@ -29,6 +29,8 @@ div.gallery:hover {
 div.gallery img {
   width: 100%;
   height: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 div.desc {
