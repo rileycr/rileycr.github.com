@@ -3,7 +3,11 @@
 body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { margin: 0; padding: 0;}
 
 /** Basic styling */
-body { font: 400 20px/1.5 "Cutive Mono", "Courier New", "Helvetica Neue", Helvetica, FangSong, STFangsong, sans-serif; color: #111; background-color: #fff; }
+body { 
+   font: 400 20px/1.5 "Cutive Mono", "Courier New", "Helvetica Neue", Helvetica, FangSong, STFangsong, sans-serif; 
+   color: #111; 
+   background-color: #fff; 
+}
 
 /** Set `margin-bottom` to maintain vertical rhythm */
 h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, table { margin-bottom: 0.5rem; }
@@ -11,10 +15,16 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, table { margin-b
 /** Images */
 img { max-width: 100%; vertical-align: middle; }
 
+/** Column */
+div.column {
+   float: left;
+   width: 50%;
+}
+
 /** Gallery */
 div.gallery {
   border: 2px solid #ccc;
-  width: 50%;
+  width: 80%;
   margin-top: 2rem;
   margin-bottom: 2rem;
   margin-left: auto;
@@ -51,27 +61,6 @@ h1, h2, h3, h4, h5, h6 { font-weight: 400; }
 /** Links */
 a { color: #2a7ae2; text-decoration: none; }
 a:hover { text-decoration: underline; }
-
-/** Blockquotes */
-blockquote { color: #828282; padding-left: 1rem; border-left: 2px solid #e8e8e8; font-style: italic; font-size: 0.875rem; }
-blockquote > :last-child { margin-bottom: 0; }
-
-/** Code formatting */
-pre, code { background-color: #fcfcfc; }
-
-code { padding: 1px 5px; font-family: "Courier New", Consolas, monopace, FangSong, STFangsong; }
-
-pre { padding: 8px 12px; overflow-x: auto; border-left: 2px solid #e8e8e8; }
-pre > code { border: 0; padding-right: 0; padding-left: 0; tab-size: 4; }
-
-/** Table */
-table { width: 100%; max-width: 100%; border-collapse: separate; border-spacing: 0; table-layout: fixed; }
-
-th, td { padding: 0.5rem; line-height: inherit; }
-
-th { text-align: left; vertical-align: bottom; border-bottom: 2px solid #e8e8e8; }
-
-td { vertical-align: top; border-bottom: 1px solid #e8e8e8; }
 
 /** Horizontal rule */
 hr { width: 50%; border: none; border-top: 2px solid #b1cef4; margin: 2rem auto; }
