@@ -73,7 +73,7 @@ hr { width: 50%; border: none; border-top: 2px solid #b1cef4; margin: 2rem auto;
 .site-title, .site-title:hover { text-decoration: none; }
 
 /** Page content */
-.page-content { position: relative; max-width: 48rem; padding: 0.5rem 1.5rem; margin: 0 auto; box-sizing: border-box; }
+.page-content { position: relative; max-width: 65rem; padding: 0.5rem 1.5rem; margin: 0 auto; box-sizing: border-box; }
 
 /** Pages */
 .home section + section { margin-top: 2rem; }
@@ -87,11 +87,11 @@ hr { width: 50%; border: none; border-top: 2px solid #b1cef4; margin: 2rem auto;
 /** Posts */
 .post-header { margin-bottom: 2rem; }
 
-.post-title { font-size: 1.5rem; letter-spacing: -1px; line-height: 0; }
+.post-title { font-size: 2rem; letter-spacing: -1px; }
 
 .post-meta { font-size: 0.875rem; color: #828282; }
 
-.post-content { margin-bottom: 0.5rem; }
+.post-content { margin-bottom: 0.5rem; padding: 0.5rem 1.5rem;}
 .post-content h1, .post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content h6 { margin-top: 2rem; }
 .post-content h1, .post-content h2 { font-size: 2rem; }
 .post-content h3 { font-size: 1.5rem; }
